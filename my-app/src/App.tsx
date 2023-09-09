@@ -10,7 +10,7 @@ function wait(duration: number) {
   return new Promise((resolve) => setTimeout(resolve, duration));
 }
 
-type PostProps = {
+export type PostProps = {
   id: string | number;
   title: string;
   userId?: number;
